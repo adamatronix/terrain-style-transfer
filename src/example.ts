@@ -1,7 +1,7 @@
-import Example from "./Example/Example"; 
+import Stage from './Stage';
 
 window.onload = () => {
 
-  new Example();
+  new Stage();
 
 }
