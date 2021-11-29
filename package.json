@@ -1,0 +1,19 @@
+{
+  "name": "ts-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "A starting point for any typescript based project",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "typescript": "^4.4.4"
+  }
+}
